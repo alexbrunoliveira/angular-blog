@@ -12,3 +12,8 @@ header{
   display: flex;
   justify-content: center;
 }
+
+.banner {
+  display: block;
+  height: 250px;
+}
