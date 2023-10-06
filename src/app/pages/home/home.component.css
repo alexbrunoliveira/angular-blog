@@ -1,3 +1,4 @@
+
 .container__articles {
   margin-top: 30px;
 
@@ -14,6 +15,7 @@ header{
 }
 
 .banner {
-  display: block;
-  height: 250px;
+  background-size: cover;
+  width: 100%;
+  height: 100vh !important;
 }
