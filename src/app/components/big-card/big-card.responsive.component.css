@@ -1,17 +1,18 @@
-@media screen and (max-width:600px){
 
-.big-card__title > h1 {
-  color: grey;
-  font-size: 27px;
-  margin-top: 96px;
-}
-.big-card__photo > img{
-  margin: 15px 0 0 32px;
-}
+@media screen and (max-width: 620px) {
+  .big-card__title > h1 {
 
-.big-card__description{
-  display: flex;
-  margin-top: 1px;
+    color: grey;
+    font-size: 27px;
+    margin-top: 10px;
+    margin-left:33px ;
+  }
+  .big-card__photo > img {
+    margin: 10px 0 0 32px;
   }
 
+  .big-card__description {
+    display: flex;
+    margin-top: 1px;
+  }
 }
