@@ -26,11 +26,13 @@
 
 .big-card__description > p > a {
   display: block;
+  margin-bottom: 50px;
   margin-left: 40px;
   color: grey;
 }
 
 .big-card__photo > img{
+
   margin-left: 40px;
   width: max-content;
   min-width: 400px;

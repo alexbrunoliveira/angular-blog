@@ -2,7 +2,7 @@
   <!-- mockado -->
   <div class="big-card__photo">
     <img
-      src="https://universoheroico.com.br/wp-content/uploads/2021/03/Adao-Negro.jpeg"
+      src="{{ photoCover }}"
     alt=""
     height="200px"
 
@@ -11,16 +11,13 @@
   </div>
 
   <div class="big-card__title">
-    <h1><a href="#"> Saiu a nova versão do Angular</a></h1>
+    <h1><a href="#"> {{cardTitle }}</a></h1>
   </div>
 
   <div class="big-card__description">
     <p>
       <a href="#">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-        Omnis ipsa, error at facere id nemo suscipit aut incidunt
-        similique possimus aliquam quam nobis ducimus iusto molestiae quae
-        soluta hic cupiditate? lor
+        {{ cardDescription }}
       </a>
     </p>
   </div>
