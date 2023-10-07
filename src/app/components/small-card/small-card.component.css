@@ -11,7 +11,7 @@
 }
 
 .small-card__photo > img {
-  
+
   max-height: 200px;
   width: 200px;
   min-width: 200px;
@@ -20,6 +20,7 @@
 
 .small-card__title {
   display: flex;
+  font-size: .3em;
   justify-content: center;
   align-items: center;
 }

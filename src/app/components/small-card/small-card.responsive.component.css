@@ -1,8 +1,12 @@
+@media screen and (max-width: 620px) {
+  .small-card__title > h1 {
+    font-size: 15px;
+  }
 
-.small-card__title > h1 {
-  font-size: 15px;
-
+  .container__small-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    overflow-x: hidden;
+  }
 }
-
-
-
