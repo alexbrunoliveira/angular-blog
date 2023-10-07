@@ -1,12 +1,8 @@
+
 .small-card__title > h1 {
-  font-size: 10px;
+  font-size: 15px;
 
 }
 
-.small-card__photo > img {
-  margin: 50px 10px;
-  width: 200px;
-  min-width: 100px;
-}
 
 

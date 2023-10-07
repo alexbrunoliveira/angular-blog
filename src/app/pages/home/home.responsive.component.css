@@ -1,23 +1,15 @@
-@media screen and (max-width:600px){
+@media screen and (max-width: 720px) {
 
-  .container-principal {
-    display: block;
-    margin: 0;
+  .container__articles {
+    box-sizing: border-box;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin: 0 auto;
   }
 
-.container__articles {
-  box-sizing: border-box;
-  width: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: start;
-
-}
-
-.banner {
-
-  width: 100vh;
-  height: 100vh !important;
-}
-
+  .banner > div {
+    margin: 10px;
+  }
 }

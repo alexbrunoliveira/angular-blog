@@ -1,9 +1,16 @@
 .contaier__menu-bar > ul {
+  margin: 20px 90px;
   display: flex;
   flex-direction: row;
+  justify-content:center ;
 }
 
 .contaier__menu-bar > ul > li {
   margin-right: 20px;
   list-style: none;
+  font-size: 20px;
+}
+
+.menu{
+  display: none;
 }
