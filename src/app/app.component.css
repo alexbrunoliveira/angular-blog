@@ -1,7 +1,20 @@
-
-
 header {
   margin-top: 15px;
   display: flex;
   justify-content: center;
 }
+
+footer{
+  background-color: black;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 25vh;
+}
+.banner {
+
+  width: 40%;
+  height: 25vh;
+}
+
+

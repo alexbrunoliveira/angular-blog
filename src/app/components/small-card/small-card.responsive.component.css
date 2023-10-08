@@ -9,4 +9,8 @@
     width: 90%;
     overflow-x: hidden;
   }
+
+  .container__small-card__separator > hr {
+    display: none;
+  }
 }
