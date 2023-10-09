@@ -1,3 +1,14 @@
+@media screen and (max-width: 971px) {
+  .container__articles {    box-sizing: border-box;
+    display: inline-block;
+  }
+  .articles__others{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
 @media screen and (max-width: 620px) {
   .container__articles {
     box-sizing: border-box;

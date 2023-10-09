@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import {dataFake} from '../../data/dataFake'
 
 @Component({
   selector: 'app-content',
@@ -8,16 +9,30 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ContentComponent implements OnInit {
 
-  photoCover:string="https://media.comicbook.com/2021/03/zack-snyder-s-justice-league-1260500.jpeg?auto=webp&width=1024&height=768&crop=1024:768,smart"
-  contentTitle:string="FILME MUITO BEM AVALIADO PELO PÚBLICO"
-  contentDescription:string="lorem lorem lorem lorem lorem"
+  photoCover:string=""
+  contentTitle:string=""
+  contentDescription:string=""
+  private id:string | null = "0"
 
 
-  constructor() {
-
-  }
+  constructor(
+    private route:ActivatedRoute
+  ) { }
 
   ngOnInit(): void {
+    this.route.paramMap.subscribe( value =>
+      this.id = value.get("id")
+    )
+    this.setvaluesToComponent(this.id)
+  }
+
+  setvaluesToComponent(id: string | null){
+    const result = dataFake.filter( //converte number para string
+                    article => article.id == id)[0]
+
+    this.contentTitle = result.title
+    this.contentDescription = result.description
+    this.photoCover = result.photoCover
   }
 
 }
