@@ -1,5 +1,4 @@
 .contaier__menu-bar > ul {
-  position: relative;
   margin: 20px 90px;
   display: flex;
   flex-direction: row;

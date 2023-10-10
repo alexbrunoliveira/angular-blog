@@ -1,14 +1,16 @@
 .container__menu-title {
   color: #fff;
+
 }
 
 .container__menu-title > h1 {
   font-family: "Segoe UI";
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 136px;
+  font-size: 95px;
   display: flex;
   justify-content: center;
+
 }
 
 .container__menu-title > hr {

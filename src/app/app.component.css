@@ -4,17 +4,20 @@ header {
   justify-content: center;
 }
 
-footer{
+footer {
   background-color: black;
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
-  height: 25vh;
+  height: 13vh;
 }
 .banner {
-
-  width: 40%;
-  height: 25vh;
+  width: 14%;
+  height: 13vh;
 }
 
-
+@media screen and (min-width: 844px) {
+  footer {
+    height: 13vh;
+  }
+}
