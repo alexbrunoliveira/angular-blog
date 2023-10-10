@@ -1,5 +1,7 @@
 # AngularBlog
-
+<p align="center">
+    <img width="700" src="src/assets/img/Captura de tela 2023-10-10 174112.png">
+</p>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
 ## Development server
